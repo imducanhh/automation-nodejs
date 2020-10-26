@@ -18,8 +18,6 @@ exports.config = {
     port: 9515,
     path: '//',
 
-    baseUrl: "http://the-internet.herokuapp.com",
-
     // Test Framework
     framework: 'mocha',
     mochaOpts: {
