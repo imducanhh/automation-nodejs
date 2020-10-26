@@ -1,0 +1,21 @@
+{
+  "name": "automation-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio"
+  },
+  "dependencies": {
+    "@wdio/cli": "^6.6.7",
+    "@wdio/local-runner": "^6.6.7",
+    "@wdio/sync": "^6.6.7",
+    "chai": "^4.2.0",
+    "webdriverio": "^6.6.7"
+  },
+  "devDependencies": {
+    "@wdio/dot-reporter": "^6.6.6",
+    "@wdio/junit-reporter": "^6.6.6",
+    "@wdio/mocha-framework": "^6.6.7"
+  }
+}
